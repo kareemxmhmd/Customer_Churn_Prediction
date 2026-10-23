@@ -1,4 +1,4 @@
-# 📊 E-Commerce Customer Churn Prediction — Final Results & Evaluation Report
+# E-Commerce Customer Churn Prediction — Final Results & Evaluation Report
 
 ## 1. Executive Summary & Key Performance Indicators
 
@@ -80,7 +80,7 @@ We evaluated three candidate architectures using a **Stratified 70% Train (2,288
 
 | Model Architecture | Precision | Recall | F1-Score | PR-AUC | Selection Verdict |
 | :--- | :---: | :---: | :---: | :---: | :--- |
-| **XGBoost (Class Balanced)** | **0.670** | **0.863** | **0.754** | **0.832** | 🏆 **Selected for Production** |
+| **XGBoost (Class Balanced)** | **0.670** | **0.863** | **0.754** | **0.832** | **Selected for Production** |
 | Random Forest (Balanced) | 0.757 | 0.662 | 0.707 | 0.788 | Sub-optimal recall (misses 34% of churners) |
 | Logistic Regression (Balanced) | 0.462 | 0.900 | 0.610 | 0.682 | Severe false positive rate (Precision < 50%) |
 
@@ -118,7 +118,7 @@ weighted avg      0.918     0.912     0.915       491
 
 ---
 
-## 7. Feature Importance Analysis (أهم العوامل المؤثرة على التسرب)
+## 7. Feature Importance Analysis
 
 Analyzing the internal feature weights of the trained XGBoost model reveals the primary factors driving churn risk:
 
