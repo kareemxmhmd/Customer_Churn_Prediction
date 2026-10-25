@@ -105,4 +105,4 @@ if __name__ == "__main__":
 
     # 7) Save the trained pipeline as .pkl
     saved_path = save_model(pipeline)
-    print(f"Model artifact saved successfully to: {saved_path}")
+    print(f"Model artifact saved successfully")
